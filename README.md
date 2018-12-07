@@ -9,5 +9,5 @@ You need [Travis CLI client](https://github.com/travis-ci/travis.rb).
 ## Installation
 
 ```
-$ https://raw.githubusercontent.com/realglobe-Inc/travis-deploy-key/master/install.sh | bash
+$ curl -s https://raw.githubusercontent.com/realglobe-Inc/travis-deploy-key/master/install.sh | bash
 ```
