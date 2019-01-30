@@ -78,7 +78,7 @@ echo_bold ""
 
 echo_bold "Copy public key to ssh host..."
 
-ssh-copy-id -i deploy_rsa.pub $user_hostname
+ssh-copy-id -f -i deploy_rsa.pub $user_hostname
 
 echo_bold "Done"
 echo_bold ""
